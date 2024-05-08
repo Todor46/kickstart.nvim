@@ -2,6 +2,8 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+vim.keymap.set('n', '<C-s>', '<Cmd>:w<CR>', { desc = 'Save file' })
+
 return {
   {
     'nvim-tree/nvim-tree.lua',
